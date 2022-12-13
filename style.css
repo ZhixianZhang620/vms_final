@@ -1,0 +1,106 @@
+polygon {
+    stroke: white;
+    fill: rgb(243, 144, 7) !important;
+    transition: fill .4s ease;
+    transform-origin: center center;
+}
+
+path {
+    stroke: white;
+    fill:#89CFF0 !important;
+
+    transition: fill .4s ease;
+    transform-origin: center center;
+}
+
+path:hover {
+    fill:  #0047AB !important;
+    cursor: pointer;
+    transform: scale(1.005, 1.005);
+}
+.map{ 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: -4%;
+    margin-left: -8%;
+    
+}
+
+.top_title{
+    margin-top: 1.5%;
+}
+
+h1{
+    font-size:100px;
+    display: flex;
+    justify-content:center;
+    margin-block-end: 0.40em;
+}
+
+h1,h2{ 
+    color:rgb(4, 4, 4);
+}
+
+#map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-map {
+    display: flex;
+    position: center;
+    top: 0;
+    left: -10%;
+    width: 100%;
+    height: 100%;
+}
+
+#details-box {
+    opacity: 0%;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 24px;
+    position: fixed;
+    color: white;
+    font-family: "Poppins";
+    background-color: black;
+    width: fit-content;
+    transform: translateX(-50%);
+    transition: opacity .4s ease;
+    z-index: 1;
+}
+
+.comment{ 
+    width:100%; 
+    display:flex; 
+    justify-content:center;
+    z-index: 1;
+}
+
+.comment a{ 
+    display:inline-block; 
+    width:70%; 
+    line-height:50px; 
+    background:rgba(255,255,255,.8); 
+    text-align:center; 
+    transition:all .2s; 
+    border-radius:5px; 
+    margin-top: 0%;
+}
+
+.comment svg{
+    width: 166.08px;
+    display: flex;
+    justify-content: center;
+}
+
+.comment polygon{
+    fill: rgb(243, 144, 7) !important;
+}
+
+.comment text{
+    fill: rgb(243, 144, 7);
+    font-family: Indie Flower;
+}
