@@ -57,33 +57,29 @@ h1,h2{
     justify-content:space-around;
 }
 
-.nav{ width:80%; 
+.nav{ width:70%; 
     display:flex; 
-    justify-content:space-between;
+    justify-content:center;
     z-index: 1;
 }
 
 .nav a{ 
     display:inline-block; 
-    width:200px; 
+    width:100%; 
     line-height:50px; 
-    background:rgba(255,255,255,.8); 
+    background:#006fac;
+    color:#fff;
     text-align:center; 
     transition:all .2s; 
     border-radius:5px; 
-    margin-top: 3%;
+    margin-top: 0%;
 }
 
 .nav a:hover{ 
-    background:rgba(255,255,255,1); 
+    background:transparent; 
+    font-weight:bolder;
     text-decoration:underline; 
     color:#006fac;
-}
-
-.nav a.cur{ 
-    background:#006fac;
-    text-decoration:underline; 
-    color:#fff;
 }
 
 .home{ position:fixed; 
